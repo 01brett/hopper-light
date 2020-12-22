@@ -8,12 +8,12 @@ interface Food {
   name: string;
 }
 
-type cool = {
+type Cool = {
   name: string;
   number: number;
 };
 
-const coolArr: cool[] = [
+const coolArr: Cool[] = [
   {
     name: "Bert",
     number: 133,

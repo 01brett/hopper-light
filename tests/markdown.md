@@ -1,6 +1,6 @@
 # Cobalt2 Theme
 
-> A Cobalt2 theme for VS Code.
+> A Cobalt2 _theme_ for VS Code.
 
 ![Preview](images/preview.gif)
 
