@@ -1,0 +1,32 @@
+{
+  "name": "hopper-light",
+  "displayName": "Hopper Light",
+  "description": "Light theme with friendly colors",
+  "version": "0.0.1",
+  "publisher": "01brett",
+  "scripts": {
+    "local": "vsce package && code --install-extension $HOME/code/hopp-theme-vscode/theme-hopp-light-0.0.1.vsix",
+    "pub": "npm version patch && vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "hopp-icon.png",
+  "homepage": "https://github.com/01brett/hopper-light",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/01brett/hopper-light.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hopper Light",
+        "uiTheme": "vs",
+        "path": "./themes/hopper-light-color-theme.json"
+      }
+    ]
+  }
+}
